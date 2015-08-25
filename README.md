@@ -4,7 +4,7 @@ Plugin that adds an `ordinalize` Twig filter.
 
 ## Installation
 
-Copy the `ordinalize` folder into `craft/plugins/`. Go to `Settings > Plugins` and click the “Install” button next to “Ordinalize”.
+Copy the `ordinalize` folder into `craft/plugins/`. In the Control Panel, go to `Settings > Plugins` and click the “Install” button next to “Ordinalize”.
 
 ## Usage
 
@@ -14,7 +14,7 @@ For example:
 
 ```
 {% for item in items %}
-  This is a the {{ loop.index|ordinalize }} item.
+  This is the {{ loop.index|ordinalize }} item.
 {% endfor %}
 ```
 
